@@ -1,11 +1,11 @@
-select * from students;
-select * from students where age between 18 and 30;
-select name from students;
-select * from students where name ilike '%O%';
-select * from students where age > id;
-select * from students order by age;
-select * from students order by age desc;
+SELECT * FROM students;
+SELECT * FROM students WHERE age BETWEEN 18 AND 50;
+SELECT name FROM students;
+SELECT * FROM students WHERE name ilike '%O%';
+SELECT * FROM students WHERE age > id;
+SELECT * FROM students ORDER BY age;
+SELECT * FROM students ORDER BY age DESC;
 
-select * from faculties;
-select name from faculties;
-select * from faculties where name ilike '%S%';
+SELECT * FROM faculties;
+SELECT name FROM faculties;
+SELECT * FROM faculties WHERE name ilike '%S%';
